@@ -1,0 +1,3 @@
+query:
+  - play the? album .album. by .artist.
+  - play .album. by .artist.
