@@ -6,6 +6,10 @@ on:
       - parachord-album-voice
   workflow_dispatch:
 
+concurrency:
+  group: parachord-test-apk-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
