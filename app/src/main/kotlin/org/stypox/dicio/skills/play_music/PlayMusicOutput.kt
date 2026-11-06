@@ -1,8 +1,7 @@
 package org.stypox.dicio.skills.play_music
 
 import org.dicio.skill.context.SkillContext
-import org.dicio.skill.skill.SkillOutput
-import org.dicio.skill.skill.HeadlineSpeechSkillOutput
+import org.stypox.dicio.io.graphical.HeadlineSpeechSkillOutput
 
 class PlayMusicOutput(
     private val message: String,
