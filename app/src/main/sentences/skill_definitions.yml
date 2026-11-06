@@ -45,6 +45,30 @@ skills:
       - id: previous
       - id: next
 
+  - id: play_music
+    specificity: high
+    sentences:
+      - id: song
+        captures:
+          - id: title
+            type: string
+          - id: artist
+            type: string
+      - id: album
+        captures:
+          - id: album
+            type: string
+          - id: artist
+            type: string
+      - id: artist
+        captures:
+          - id: artist
+            type: string
+      - id: playlist
+        captures:
+          - id: url
+            type: string
+
   - id: joke
     specificity: high
     sentences:
