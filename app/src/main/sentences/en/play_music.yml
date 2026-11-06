@@ -1,0 +1,15 @@
+song:
+  - play (the? song|track)? .title. by .artist.
+  - play song .title. by .artist.
+
+album:
+  - play the? album .album. by .artist.
+
+artist:
+  - play artist .artist.
+  - play music by .artist.
+  - play some music by .artist.
+
+playlist:
+  - play playlist link .url.
+  - play the? playlist at .url.
